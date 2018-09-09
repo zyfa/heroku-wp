@@ -18,8 +18,8 @@
 require '/app/vendor/autoload.php';
 
 // Disable filesystem level changes from WP
-define( 'DISALLOW_FILE_EDIT', true );
-define( 'DISALLOW_FILE_MODS', true );
+define( 'DISALLOW_FILE_EDIT', false );
+define( 'DISALLOW_FILE_MODS', false );
 
 // Make sure we admin over SSL
 define( 'FORCE_SSL_LOGIN', true );
